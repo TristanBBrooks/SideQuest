@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: SideQuest
+## Notes: The thing you do when you can't do WoW
+## Version: 0.1
+SideQuest.lua
+SideQuest.xml

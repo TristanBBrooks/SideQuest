@@ -1,0 +1,75 @@
+CREATE TABLE realm (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(40) NOT NULL,
+	description varchar(400),
+	PRIMARY KEY (ID)
+);
+CREATE TABLE profile (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(40) NOT NULL,
+	password varchar(255) NOT NULL,
+	description varchar(400),
+	rating int,
+	realmID int NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (realmID) REFERENCES realm(ID)
+);
+CREATE TABLE guild (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(40) NOT NULL,
+	description varchar(400),
+	realmID int NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (realmID) REFERENCES realm(ID)
+);
+CREATE TABLE thread (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(40) NOT NULL,
+	description varchar(400),
+	creationDate DATETIME NOT NULL,
+	updatedDate DATETIME NOT NULL,
+	guildID int NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (guildID) REFERENCES guild(ID)
+);
+CREATE TABLE post (
+	ID int NOT NULL AUTO_INCREMENT,
+	description varchar(400) NOT NULL,
+	date DATETIME NOT NULL,
+	profileID int NOT NULL,
+	threadID  int NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (profileID) REFERENCES profile(ID),
+	FOREIGN KEY (threadID) REFERENCES thread(ID)
+);
+CREATE TABLE workOrder (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(60) NOT NULL,
+	description varchar(400) NOT NULL,
+	buyerID int NOT NULL,
+	sellerID int NOT NULL,
+	status varchar(20) NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (buyerID) REFERENCES profile(ID),
+	FOREIGN KEY (sellerID) REFERENCES profile(ID)
+);
+CREATE TABLE mob (
+	ID int NOT NULL AUTO_INCREMENT,
+	name varchar(60) NOT NULL,
+	killCount int NOT NULL,
+	description varchar(400),
+	topKillerID int NOT NULL,
+	PRIMARY KEY (ID),
+	FOREIGN KEY (topKillerID) REFERENCES profile(ID)
+);
+CREATE TABLE guildProfile (
+	profileID int NOT NULL,
+	guildID int NOT NULL,
+	title varchar(60) NOT NULL,
+	PRIMARY KEY (profileID, guildID)
+);
+CREATE TABLE profileMob (
+	mobID int NOT NULL,
+	profileID int NOT NULL,
+	count int NOT NULL
+);
