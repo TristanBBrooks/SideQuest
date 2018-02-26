@@ -1,0 +1,30 @@
+2/9 10:41:47.207  You hit Burly Rockjaw Trogg for 12.
+2/9 10:41:47.218  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:49.295  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:50.160  You hit Burly Rockjaw Trogg for 11.
+2/9 10:41:51.402  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:53.093  You miss Burly Rockjaw Trogg.
+2/9 10:41:53.359  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:55.542  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:56.059  You hit Burly Rockjaw Trogg for 10.
+2/9 10:41:57.525  Burly Rockjaw Trogg hits you for 1.
+2/9 10:41:58.992  Your Heroic Strike was dodged by Burly Rockjaw Trogg.
+2/9 10:41:59.693  Burly Rockjaw Trogg hits you for 1.
+2/9 10:42:01.707  Burly Rockjaw Trogg hits you for 1.
+2/9 10:42:01.945  Your Heroic Strike hits Burly Rockjaw Trogg for 23.
+2/9 10:42:01.945  You have slain Burly Rockjaw Trogg!
+2/9 10:42:01.945  Burly Rockjaw Trogg dies, you gain 96 experience. (+48 exp Rested bonus)
+2/9 10:42:01.945  You fail to perform Heroic Strike: Interrupted.
+2/9 10:42:05.689  You fail to perform Heroic Strike: Not enough rage.
+2/9 10:42:06.639  You fail to perform Heroic Strike: Not enough rage.
+2/9 10:42:08.039  You hit Ragged Young Wolf for 12.
+2/9 10:42:08.091  Ragged Young Wolf hits you for 1.
+2/9 10:42:10.189  Ragged Young Wolf hits you for 1.
+2/9 10:42:10.971  You hit Ragged Young Wolf for 12.
+2/9 10:42:12.214  Ragged Young Wolf hits you for 1.
+2/9 10:42:13.969  You hit Ragged Young Wolf for 11.
+2/9 10:42:14.236  Ragged Young Wolf hits you for 1.
+2/9 10:42:16.269  Ragged Young Wolf hits you for 1.
+2/9 10:42:16.984  You hit Ragged Young Wolf for 11.
+2/9 10:42:16.984  You have slain Ragged Young Wolf!
+2/9 10:42:16.984  Ragged Young Wolf dies, you gain 72 experience. (+36 exp Rested bonus)
